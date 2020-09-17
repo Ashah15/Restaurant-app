@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Ashah15/Restaurant-app#readme",
   "devDependencies": {
+    "tinypng-webpack-plugin": "^2.0.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },

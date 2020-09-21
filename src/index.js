@@ -1,7 +1,7 @@
 import './styles.css';
 import Contact from './contact';
 import Menu from './menu';
-
+import spaghettiImg from './spaghetti.jpg';
 
 const initialLoad = () => {
       const headerInfo = document.createElement("div")
@@ -31,6 +31,11 @@ const initialLoad = () => {
       return headerInfo;
 
 }
+
+const setBackground = (image = nil) => {
+ document.body.style.backgroundImage = `url('${spaghettiImg}')`;
+};
+setBackground()
 
 const content = document.getElementById("content");
 content.appendChild(initialLoad());

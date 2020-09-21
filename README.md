@@ -2,7 +2,7 @@
 
 > This is a restaurant page app that showcases the understanding of the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack.
 
-![restaurant](https://user-images.githubusercontent.com/25789605/93802243-dbe22880-fc4b-11ea-9310-f21ef6e5413a.png)
+![rest](https://user-images.githubusercontent.com/25789605/93827550-26769b80-fc72-11ea-9bb6-f45cc47ce8c8.png)
 
 ## Built With
 

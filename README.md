@@ -2,44 +2,33 @@
 
 > This is a restaurant page app that showcases the understanding of the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack.
 
-![screenshot](./app_screenshot.png)
+![restaurant](https://user-images.githubusercontent.com/25789605/93802243-dbe22880-fc4b-11ea-9310-f21ef6e5413a.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+HTML,
+CSS,
+JavaScript,
+Bootstrap
+Webpack
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
+Any kind of browser supporting CSS3 and HTML5
 
 ### Setup
+Fork the repo to your remote repository.
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+no installation required
 
 ## Authors
 
-👤 **Asha**
+👤 **Asha Abdullahi**
 
 - Github: [@Ashah15](https://github.com/Ashah15)
 - Twitter: [@AshaAbdullahi13](https://twitter.com/AshaAbdullahi13)

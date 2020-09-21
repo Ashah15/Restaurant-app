@@ -1,11 +1,9 @@
-import './CSS/styles.css';
-import HeaderImg from './headerimg.png';
+import './styles.css';
 import Contact from './contact';
 import Menu from './menu';
 
 
 const initialLoad = () => {
-      // Make parent div and give it classes
       const headerInfo = document.createElement("div")
       headerInfo.classList.add("row", "header__info");
 
@@ -14,32 +12,21 @@ const initialLoad = () => {
 
       const headerTitle = document.createElement("h2");
       headerTitle.classList.add("header__title");
-      headerTitle.textContent = "A Premium And Authentic Steakhouse";
+      headerTitle.textContent = "Ashahs' Eatery";
 
       const headerContent = document.createElement("p");
       headerContent.classList.add("header__content");
-      headerContent.textContent = "We've been running for over 20 years and have become a habit of over 2000 customers";
-
-      const headerBtn = document.createElement("button");
-      headerBtn.classList.add("header__btn");
-      headerBtn.textContent = "Menu"
+      headerContent.textContent = "Satisfying people’s hunger for life’s simple pleasures";
 
       headerTextContent.appendChild(headerTitle);
       headerTextContent.appendChild(headerContent);
-      headerTextContent.appendChild(headerBtn);
+      
 
       const headerImgContent = document.createElement("div");
       headerImgContent.classList.add("col", "header__img-content");
-
-      const headerImg = document.createElement("img");
-      headerImg.setAttribute("alt", "Marvy restaurant");
-      headerImg.src = HeaderImg;
-
-      headerImgContent.appendChild(headerImg);
       
 
       headerInfo.appendChild(headerTextContent);
-      headerInfo.appendChild(headerImgContent);
       
       return headerInfo;
 
@@ -48,18 +35,20 @@ const initialLoad = () => {
 const content = document.getElementById("content");
 content.appendChild(initialLoad());
 
-document.addEventListener("click", function(e){  
+document.querySelectorAll('.navbar-btn').forEach((menuItem) => {
+ 
+ menuItem.addEventListener("click", function(e){  
     content.innerHTML = "";
 
     if(e.target.textContent === "Home"){
         content.appendChild(initialLoad());
     }
     if(e.target.textContent === "Menu"){
-        // console.log(Menu())
         content.appendChild(Menu());
     }
     if(e.target.textContent === "Contact"){
         content.appendChild(Contact());
     }
       
+ })	
 })

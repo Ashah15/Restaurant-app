@@ -29,7 +29,7 @@ const initialLoad = () => {
   return headerInfo;
 };
 
-const setBackground = (image = nil) => {
+const setBackground = () => {
   document.body.style.backgroundImage = `url('${spaghettiImg}')`;
 };
 setBackground();
@@ -38,7 +38,7 @@ const content = document.getElementById('content');
 content.appendChild(initialLoad());
 
 document.querySelectorAll('.navbar-btn').forEach((menuItem) => {
-  menuItem.addEventListener('click', function (e)  {
+  menuItem.addEventListener('click', (e) => {
     content.innerHTML = '';
 
     if (e.target.textContent === 'Home') {

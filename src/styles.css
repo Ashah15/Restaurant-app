@@ -1,152 +1,147 @@
-body{
-    margin:0;
-    padding:0;
-    background:purple;
-    color:#fff;
-    font-family: sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  background: purple;
+  color: #fff;
+  font-family: sans-serif;
 }
 
-.row{
-    display:flex;
-    justify-content: space-between;
+.row {
+  display: flex;
+  justify-content: space-between;
 }
 
-.header__info{
-    padding:10vh 4rem;
+.header__info {
+  padding: 10vh 4rem;
 }
 
-.header__text-content{
-    display: flex;
+.header__text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__img-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header__title {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.form-col {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background: black;
+  border: 1px solid #979796;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.form-textarea {
+  border: 1px solid #979796;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  background: black;
+  font-size: 1rem;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+
+.form-submit {
+  max-width: 300px;
+  margin: auto;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: none;
+  background: #c28334;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.tabs {
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+
+.navbar-btn {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 4rem auto;
+}
+
+.meal {
+  width: 45%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.meal-title {
+  font-size: 1.5rem;
+  color: #c28334;
+}
+
+.meal-img {
+  width: 400px;
+  height: 400px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .row {
     flex-direction: column;
-    justify-content: center;
-}
+  }
 
-.header__img-content img{
-    max-width: 100%;
-    height: auto;
-}
+  .header__title {
+    font-size: 2.5rem;
+  }
 
-.header__title{
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-}
-
-.form-col{
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
-    padding-top: 20vh;
-
-}
-
-.form-box{
-    display: flex;
-    flex-direction: column;
-}
-
-.form-input{
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    background: black;
-    border: 1px solid #979796;
-    padding: .75rem;
-    box-sizing:border-box;
-    max-width:100%;
-}
-
-.form-textarea{
-    border: 1px solid #979796;
-    box-sizing: border-box;
-    padding: .75rem;
-    background: black;
-    font-size: 1rem;
-    font-family: sans-serif;
-    margin-bottom: 1rem;
-    max-width:100%;
-}
-
-.form-submit{
-    max-width: 300px;
-    margin: auto;
-    padding: .75rem 2rem;
-    font-size: 1rem;
-    border-radius: 30px;
-    border: none;
-    background: #c28334;
-    color: #fff;
-    transition: all .5s;
-    max-width:100%;
-}
-
-/* Navbar */
-
-.tabs{
-    padding-top: 2rem;
-    padding-left: 2rem;
-}
-
-.navbar-btn{
-    border: none;
-    background: transparent;
-    font-size: 1rem;
-    color: #fff;
-    padding: .5rem 1rem;
-    cursor:pointer;
-}
-
-.menu-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap:wrap;
+  .form-col {
     max-width: 90%;
-    margin: 4rem auto;
-}
+    padding-top: 2rem;
+  }
 
-.meal{
-    width:45%;
-    text-align: center;
-    margin-bottom:2rem;
-}
+  .menu-box {
+    flex-direction: column;
+    padding: 1rem 2rem;
+  }
 
-.meal-title{
-    font-size: 1.5rem;
-    color: #c28334;
-}
+  .meal {
+    width: 100%;
+  }
 
-.meal-img{
-    width: 400px;
-    height: 400px;
-    /*border-radius: 50%;*/
-    max-width: 100%;
-    object-fit: contain;
-}
-
-@media(max-width:900px){
-    .row{
-        flex-direction: column;
-    }
-
-    .header__title{
-        font-size:2.5rem;
-    }
-
-    .form-col{
-        max-width:90%;
-        padding-top:2rem;
-    }
-
-    .menu-box{
-        flex-direction: column;
-        padding:1rem 2rem;
-    }
-
-    .meal{
-        width:100%;
-    }
-
-    .meal-img{
-        width:100%;
-        max-width:200px;
-        height:auto;
-    }
+  .meal-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
 }

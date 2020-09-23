@@ -3,7 +3,7 @@ const Contact = () => {
   formCol.classList.add('form-col');
 
   const formTitle = document.createElement('h2');
-  formTitle.textContent = 'Reservation & Enquiries';
+  formTitle.textContent = 'Reservation, Enquiries & Thank you';
 
   const formBox = document.createElement('form');
   formBox.classList.add('form-box');
@@ -16,13 +16,13 @@ const Contact = () => {
   const contact = document.createElement('input');
   contact.classList.add('form-input');
   contact.setAttribute('type', 'text');
-  contact.setAttribute('placeholder', 'How to get intouch with you?');
+  contact.setAttribute('placeholder', 'Your Email or Phone Number?');
 
   const message = document.createElement('textarea');
   message.classList.add('form-textarea');
   message.setAttribute('cols', '30');
   message.setAttribute('rows', '10');
-  message.setAttribute('placeholder', 'Enquire anything about our establishment and make your reservations here');
+  message.setAttribute('placeholder', 'Leave your comments here and appreciations to our esteemed services');
 
   const submitBtn = document.createElement('input');
   submitBtn.classList.add('form-submit');

@@ -2,6 +2,8 @@ import './styles.css';
 import Contact from './contact';
 import Menu from './menu';
 import spaghettiImg from './spaghetti.jpg';
+import foodImg from './food.jpg';
+import beansImg from './beans.jpg';
 
 const initialLoad = () => {
   const headerInfo = document.createElement('div');
@@ -29,10 +31,10 @@ const initialLoad = () => {
   return headerInfo;
 };
 
-const setBackground = () => {
-  document.body.style.backgroundImage = `url('${spaghettiImg}')`;
+const setBackground = (image) => {
+  document.body.style.backgroundImage = `url(${image})`;
 };
-setBackground();
+setBackground(spaghettiImg);
 
 const content = document.getElementById('content');
 content.appendChild(initialLoad());
@@ -43,12 +45,15 @@ document.querySelectorAll('.navbar-btn').forEach((menuItem) => {
 
     if (e.target.textContent === 'Home') {
       content.appendChild(initialLoad());
+      setBackground(spaghettiImg);
     }
     if (e.target.textContent === 'Menu') {
       content.appendChild(Menu());
+      setBackground(foodImg);
     }
     if (e.target.textContent === 'Contact') {
       content.appendChild(Contact());
+      setBackground(beansImg);
     }
   });
 });

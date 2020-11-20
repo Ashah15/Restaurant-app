@@ -5,6 +5,7 @@ import spaghettiImg from './spaghetti.jpg';
 import foodImg from './food.jpg';
 import beansImg from './beans.jpg';
 import initialLoad from './load';
+import navPage from './navbar';
 
 const setBackground = (image) => {
   document.body.style.backgroundImage = `url(${image})`;

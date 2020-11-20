@@ -147,3 +147,38 @@ body {
     height: auto;
   }
 }
+
+.gold-nav-div {
+  display: table;   /* Allow the centering to work */
+  margin-left: 0;
+}
+
+ul#horizontal-list {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.dark li {
+  display: flex;
+  flex-direction: row;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  margin-right: 5em;
+}
+
+ul#horizontal-list li a {
+  color: #f4f4f4;
+  margin-left: 5em;
+  font-size: 25px;
+  border-bottom: double #ac8310;
+  text-decoration: none;
+}
+
+.gold-tab {
+  position: absolute;
+  top: 30px;
+  z-index: 1;
+  width: 100%;
+}

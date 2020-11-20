@@ -1,59 +1,39 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Restaurant-app
 
-# Project Name
+> This is a restaurant page app that showcases the understanding of the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack.
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![rest](https://user-images.githubusercontent.com/25789605/93827550-26769b80-fc72-11ea-9bb6-f45cc47ce8c8.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+HTML,
+CSS,
+JavaScript,
+Bootstrap
+Webpack
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Restaurant](https://pensive-hoover-d53d25.netlify.app/)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Any kind of browser supporting CSS3 and HTML5
 
 ### Setup
+Fork the repo to your remote repository.
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+no installation required
 
 ## Authors
 
-👤 **Author1**
+👤 **Asha Abdullahi**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Ashah15](https://github.com/Ashah15)
+- Twitter: [@AshaAbdullahi13](https://twitter.com/AshaAbdullahi13)
+- Linkedin: [ashaabdullahi](https://www.linkedin.com/in/ashaabdullahi/)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 

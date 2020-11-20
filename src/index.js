@@ -14,6 +14,7 @@ setBackground(spaghettiImg);
 
 const content = document.getElementById('content');
 content.appendChild(initialLoad());
+navPage();
 
 document.querySelectorAll('.navbar-btn').forEach((menuItem) => {
   menuItem.addEventListener('click', (e) => {

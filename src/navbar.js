@@ -1,21 +1,20 @@
 const navPage = () => {
-  const navDiv = document.createElement('div');
+  const navDiv = document.getElementById('tabs');
+  const homeButton = document.createElement('button');
+  homeButton.className = 'navbar-btn home';
+  homeButton.innerText = 'Home';
 
-  const homeLink = document.createElement('li')
-  homeLink.className = 'navbar-btn nav-link home active'
-  homeLink.innerText = "Home"
+  const menuButton = document.createElement('button');
+  menuButton.className = 'navbar-btn menu';
+  menuButton.innerText = 'Menu';
 
-  const menuLink = document.createElement('li')
-  menuLink.className = 'navbar-btn nav-link menu'
-  menuLink.innerText = "Menu"
+  const contactButton = document.createElement('button');
+  contactButton.className = 'navbar-btn contact';
+  contactButton.innerText = 'Contact';
 
-  const contactLink = document.createElement('li')
-  contactLink.className = 'navbar-btn nav-link contact'
-  contactLink.innerText = "Contact"
-
-  navbar.appendChild(homeLink)
-  navbar.appendChild(menuLink)
-  navbar.appendChild(contactLink)
+  navDiv.appendChild(homeButton);
+  navDiv.appendChild(menuButton);
+  navDiv.appendChild(contactButton);
 
   return navDiv;
 };
